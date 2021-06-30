@@ -1,0 +1,48 @@
+.flightRow {
+  background-color: royalblue;
+  margin-bottom: 5px;
+}
+
+.image {
+  width: 50px;
+  height: 50px;
+}
+
+.airlineName {
+  font-weight: bold;
+}
+
+.flightNumber, .city {
+  font-size: 0.7rem;
+  text-align: center;
+}
+
+.time, .price {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.verticalCenter {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 10px;
+}
+
+.noWrap {
+  white-space: nowrap;
+}
+
+.button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+  white-space: nowrap;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}

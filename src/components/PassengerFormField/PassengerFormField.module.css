@@ -1,0 +1,44 @@
+.container{
+  position: relative;
+}
+
+.formContainer{
+  position: absolute;
+  padding: 20px 10px;
+  display: none;
+  border: 1px solid black;
+  background-color: #2b8e4a;
+  color: #fff;
+  border-radius: 5px;
+  z-index: 1;
+}
+
+.formContainer.show {
+  display: block;
+  min-width: 250px;
+}
+
+.row {
+  padding: 5px;
+  display: flex;
+}
+
+.col {
+  flex: 1;
+}
+
+.inputBox {
+  width: 80px;
+}
+
+.submitButton {
+  display: flex;
+  padding: 10px 0 0;
+  justify-content: center;
+}
+
+.error {
+  color: #f4f741;
+  margin: 0 auto;
+  font-size: 0.7em;
+}

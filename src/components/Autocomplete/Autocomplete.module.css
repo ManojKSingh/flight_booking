@@ -1,0 +1,17 @@
+.wrapper {
+  position: relative;
+}
+
+.listContainer {
+  position: absolute;
+  border: 1px solid #000;
+  max-height: 150px;
+  overflow: scroll;
+  z-index: 1;
+  background-color: #fff;
+  display: none;
+}
+
+.listContainer.show {
+  display: block;
+}
